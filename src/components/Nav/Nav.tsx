@@ -33,7 +33,7 @@ const Nav: React.FC = () => {
   }
 
   return (
-    <nav className="bg-green-900 h-30 p-5 items-center justify-around grid gap-1">
+    <nav className="bg-green-900 h-30 p-5 text-white items-center justify-around grid gap-1">
       <label htmlFor="">Nota</label>
       <input type="text" ref={input} />
       <label htmlFor="" >Importante</label>
